@@ -1,3 +1,47 @@
+@font-face {
+    font-family: FUTURE;
+    src: url('misc/cartesian-font/Cartesian-4B576.ttf');
+}
+
+
+html, body{
+    margin: 0;
+    padding: 0;
+    height: 100%;
+}
+
+p{
+    margin: 0;
+}
+.masterdiv{
+    height: 100%;
+    width: 100%;
+    background-color: #FA3030;
+}
+
+.topdiv{
+    height: 20%;
+    width: 100%;
+    background-color: black;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.title{
+    margin-top: 0;
+    font-family: FUTURE;
+    font-size: 64px;
+    color: white;
+    margin: 0;
+}
+
+.content{
+    height: 75%;
+    width: 100%;
+    display: flex;
+}
+
 .icon{
     height: 100px;
     width: 100px;
