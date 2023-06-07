@@ -5,10 +5,37 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="script.js"></script>
 </head>
 <body>
-    <p>
-        test
-    </p>
+    <div class="masterdiv">
+        <div class="topdiv">
+            <h1 class="title">
+                Rock Paper Scissors
+            </h1>
+        </div>
+        <div class="content">
+            <div class="playerchoice">
+                <p class="chooseone">
+                    CHOOSE ONE:
+                </p>
+                <button class="btn"><img src="misc/rock.png" alt="" class="icon"></button>
+                <button class="btn"><img src="misc/paper.png" alt="" class="icon"></button>
+                <button class="btn"><img src="misc/scissors.png" alt="" class="icon"></button>
+            </div>
+            <div class="outcome">
+                <p class="playerscore"></p>
+                <p> - </p>
+                <p class="cpuscore"></p>
+                <p class="sentence"></p>
+            </div>
+            <div class="robotdiv">
+                <p class="robotswords"></p>
+                <img src="misc/robot.png" alt="" class="robot">
+            </div>
+        </div>
+    </div>
+    
 </body>
 </html>
