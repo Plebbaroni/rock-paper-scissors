@@ -1,4 +1,7 @@
 # rock-paper-scissors
 A Rock Paper Scissors web game.
 
-Definitely not responsive right now... Will fix/revamp soon.
+TO DO/FIX:
+
+- Most likely not responsive atm.
+- Size of the robot isn't fixed. He resizes when the text changes.
