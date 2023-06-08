@@ -6,7 +6,6 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="styles.css">
-    <script src="script.js"></script>
 </head>
 <body>
     <div class="masterdiv">
@@ -14,29 +13,33 @@
             <h1 class="title">
                 Rock Paper Scissors
             </h1>
+            <p class="flavortext">rules: 1st to score 5 points wins.</p>
         </div>
         <div class="content">
             <div class="playerchoice">
                 <p class="chooseone">
                     CHOOSE ONE:
                 </p>
-                <button class="btn"><img src="misc/rock.png" alt="" class="icon"></button>
-                <button class="btn"><img src="misc/paper.png" alt="" class="icon"></button>
-                <button class="btn"><img src="misc/scissors.png" alt="" class="icon"></button>
+                <button class="btn" id="rock"><img src="misc/rock.png" alt="" class="icon"></button>
+                <button class="btn" id="paper"><img src="misc/paper.png" alt="" class="icon"></button>
+                <button class="btn" id="scissors"><img src="misc/scissors.png" alt="" class="icon"></button>
             </div>
             <div class="outcome">
-                <p class="playerscore"></p>
-                <p> - </p>
-                <p class="cpuscore"></p>
-                <p class="flavortext">first to five wins.</p>
+                <div class="scoreboard">
+                    <p class="playerscore"></p>
+                    <p> - </p>
+                    <p class="cpuscore"></p>
+                </div>
                 <p class="sentence"></p>
             </div>
             <div class="robotdiv">
-                <p class="robotswords"></p>
+                <div class="words">
+                    <p class="robotswords"></p>
+                </div>
                 <img src="misc/robot.png" alt="" class="robot">
             </div>
         </div>
     </div>
-    
+    <script src="script.js"></script>
 </body>
 </html>
