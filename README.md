@@ -5,3 +5,4 @@ TO DO/FIX:
 
 - Most likely not responsive atm.
 - Size of the robot isn't fixed. He resizes when the text changes.
+- JavaScript might need refactoring.
